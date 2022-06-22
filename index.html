@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid container">
+                <div class="logo d-flex justify-content-around">
+                    <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand d-flex" href="#">
+                        <h1 class="logo-text">Yummy</h1>
+                        <span class="logo-dot">.</span>
+                    </a>
+
+                </div>
+
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto d-flex justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Chefs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="button-book">
+                    <button type="button" class="btn btn-danger">Book a Table</button>
+                </div>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <div class="welcome">
+            <div class="container">
+                <div class="row mx-auto">
+                    <div class="col-6 welcome-text">
+                        <h1>ENJOY YOUR HEALTHY</h1>
+                        <h1>DELICIOUS FOOD</h1>
+                        <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae
+                            cumque eum quaerat.</p>
+                        <div class="buttons-welcome">
+                            <button type="button" class="btn btn-danger">Book a Table</button>
+                            <a id="myBtn" href="#">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <span>Watch Video</span>
+                            </a>
+
+                            <!--Modal-->
+                            <div id="myModal" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <div class="modal-video-body">
+                                        <iframe width="800" height="400" src="https://www.youtube.com/embed/-LZ6x6GFvj0"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal-->
+                    </div>
+                    <div class="col-6 welcome-photo">
+                        <img src="./assets/img/welcome-img-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span>ABOUT US</span>
+                        <div class="text-about-big">
+                            <h2>LEARN MORE</h2>
+                            <h2 style="color: red;">ABOUT US</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="inner-text">
+                            <h1 class="first-text">Book a Table</h1>
+                            <h1 class="second-text">+1 5589 55488 55</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                        <a href="#"><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat.</a>
+                        <br>
+                        <a href="#"><i class="fa-solid fa-check-double"></i> Duis aute irure dolor in reprehenderit in
+                            voluptate velit.</a>
+                        <br>
+                        <a href="#"><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
+                            storacalaperda mastiro dolore eu fugiat nulla pariatur.</a>
+                        <br>
+                        <br>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                            occaecat cupidatat non proident</p>
+                        <br>
+                        <div class="modal-about">
+                            <a id="myBtn" href="#">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </a>
+                            <img src="./assets/img/about-modal.jpg" alt="">
+                        </div>
+                        <!--Modal-->
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <div class="modal-video-body">
+                                    <iframe width="800" height="400" src="https://www.youtube.com/embed/-LZ6x6GFvj0"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Modal-->
+                </div>
+            </div>
+        </div>
+
+        <div class="chiefs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./assets/img/chefs-1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                       
+                        <div class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./assets/img/chefs-2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+            
+                         <div class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="./assets/img/chefs-3.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                         </div>
+            
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer></footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
